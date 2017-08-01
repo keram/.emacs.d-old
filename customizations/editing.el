@@ -1,4 +1,7 @@
 ;; Customizations relating to editing a buffer.
+;; C-a conflicts with tmux (screen)
+;; (global-set-key (kbd "C-x a") 'move-beginning-of-line)
+
 
 ;;;; Key binding to use "hippie expand" for text autocompletion
 ;;;; http://www.emacswiki.org/emacs/HippieExpand

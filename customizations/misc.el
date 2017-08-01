@@ -10,3 +10,7 @@
 
 ;; Go straight to scratch buffer on startup
 (setq inhibit-startup-message t)
+
+;; store buffers
+(desktop-save-mode 1)
+

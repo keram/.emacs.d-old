@@ -1,4 +1,4 @@
-;; ;; These customizations make it easier for you to navigate files,
+; ;; These customizations make it easier for you to navigate files,
 ;; ;; switch buffers, and choose options from the minibuffer.
 ;;
 ;;
