@@ -39,7 +39,7 @@
 
     ;; integration with a Clojure REPL
     ;; https://github.com/clojure-emacs/cider
-    ;; cider
+    cider
     ;; Debugger entered--Lisp error: (bad-signature "spinner-1.7.3.el.sig")
 
     ;; project navigation
@@ -62,6 +62,9 @@
 
     ;; json
     json-mode
+
+    ;; ruby test in emacs
+    ruby-test-mode
     ))
 
 (dolist (p my-packages)
@@ -72,9 +75,11 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(coffee-tab-width 2)
+ '(org-agenda-files nil)
  '(package-selected-packages
    (quote
-    (json-mode 4clojure minitest multiple-cursors inf-ruby yaml-mode seq paredit clojure-mode-extra-font-locking))))
+    (spinner cider ruby-test-mode json-mode 4clojure minitest multiple-cursors inf-ruby yaml-mode seq paredit clojure-mode-extra-font-locking))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -115,4 +120,5 @@
 (load "setup-js.el")
 (load "setup-org.el")
 (load "setup-ruby.el")
+(load "setup-org-capture.el")
 
