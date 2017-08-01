@@ -2,3 +2,7 @@
 elpa/
 url/
 eww-bookmarks
+bookmarks
+desktop/
+.emacs.desktop
+recentf
