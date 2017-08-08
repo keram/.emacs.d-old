@@ -57,6 +57,9 @@
     ;; minitest ?
     minitest
 
+    ;; rspec
+    rspec-mode
+
     ;; clojure excercises
     4clojure
 
@@ -79,7 +82,8 @@
  '(org-agenda-files nil)
  '(package-selected-packages
    (quote
-    (spinner cider ruby-test-mode json-mode 4clojure minitest multiple-cursors inf-ruby yaml-mode seq paredit clojure-mode-extra-font-locking))))
+    (spinner cider ruby-test-mode json-mode 4clojure minitest multiple-cursors inf-ruby yaml-mode seq paredit clojure-mode-extra-font-locking)))
+ '(safe-local-variable-values (quote ((encoding . utf-8)))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

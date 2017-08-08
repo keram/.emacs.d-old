@@ -6,3 +6,5 @@ bookmarks
 desktop/
 .emacs.desktop
 recentf
+.emacs.desktop.lock
+network-security.data
