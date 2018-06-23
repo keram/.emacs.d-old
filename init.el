@@ -14,7 +14,8 @@
 
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
 (add-to-list 'package-archives '("melpa-milk" . "http://melpa.milkbox.net/packages/"))
-(package-initialize)
+; Warning (package): Unnecessary call to ‘package-initialize’ in init file
+; (package-initialize)
 
 ;; Download the ELPA archive description if needed.
 ;; This informs Emacs about the latest versions of all packages, and
