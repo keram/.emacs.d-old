@@ -59,7 +59,7 @@
     minitest
 
     ;; rspec
-    rspec-mode
+;;    rspec-mode
 
     ;; clojure excercises
     4clojure
