@@ -28,7 +28,7 @@
 ;;;;
 ;; Cider
 ;;;;
-
+(setq cider-known-endpoints '(("host-a" "127.0.0.1" "8555") ("host-b" "8554")))
 ;;;; provides minibuffer documentation for the code you're typing into the repl
 ;;(add-hook 'cider-mode-hook 'cider-turn-on-eldoc-mode)
 ;;
@@ -46,7 +46,7 @@
 ;;(setq cider-repl-wrap-history t)
 ;;
 ;;;; enable paredit in your REPL
-;;(add-hook 'cider-repl-mode-hook 'paredit-mode)
+(add-hook 'cider-repl-mode-hook 'paredit-mode)
 ;;
 ;;;; Use clojure mode for other extensions
 ;;(add-to-list 'auto-mode-alist '("\\.edn$" . clojure-mode))
