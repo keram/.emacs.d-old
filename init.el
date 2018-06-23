@@ -127,3 +127,4 @@
 (load "setup-ruby.el")
 (load "setup-org-capture.el")
 
+(put 'downcase-region 'disabled nil)
