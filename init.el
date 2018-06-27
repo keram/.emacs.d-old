@@ -1,3 +1,4 @@
+(setq custom-file "~/.emacs.d/custom.el")
 (prefer-coding-system 'utf-8)
 (setq coding-system-for-read 'utf-8)
 (setq coding-system-for-write 'utf-8)
@@ -82,9 +83,8 @@
  '(coffee-tab-width 2)
  '(org-agenda-files nil)
  '(package-selected-packages
-   (quote
-    (spinner cider ruby-test-mode json-mode 4clojure minitest multiple-cursors inf-ruby yaml-mode seq paredit clojure-mode-extra-font-locking)))
- '(safe-local-variable-values (quote ((encoding . utf-8)))))
+   '(robe wsd-mode zoom-window tagedit spinner cider ruby-test-mode json-mode 4clojure minitest multiple-cursors inf-ruby yaml-mode seq paredit clojure-mode-extra-font-locking))
+ '(safe-local-variable-values '((encoding . utf-8))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -126,5 +126,3 @@
 (load "setup-org.el")
 (load "setup-ruby.el")
 (load "setup-org-capture.el")
-
-(put 'downcase-region 'disabled nil)

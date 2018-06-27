@@ -1,3 +1,7 @@
+;; Remove white spaces on save
+
+(add-hook 'before-save-hook 'whitespace-cleanup)
+
 ;; Customizations relating to editing a buffer.
 ;; C-a conflicts with tmux (screen)
 ;; (global-set-key (kbd "C-x a") 'move-beginning-of-line)
