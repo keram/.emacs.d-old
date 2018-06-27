@@ -1,4 +1,3 @@
-(setq custom-file "~/.emacs.d/custom.el")
 (prefer-coding-system 'utf-8)
 (setq coding-system-for-read 'utf-8)
 (setq coding-system-for-write 'utf-8)
@@ -94,6 +93,8 @@
 ;;;;
 ;; Customization
 ;;;;
+
+(setq custom-file "~/.emacs.d/customizations/misc.el")
 
 ;; Add a directory to our load path so that when you `load` things
 ;; below, Emacs knows where to look for the corresponding file.
