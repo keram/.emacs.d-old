@@ -2,8 +2,8 @@
 ;; ;; switch buffers, and choose options from the minibuffer.
 ;;
 (global-set-key (kbd "C-x O") (lambda ()
-				(interactive)
-				(other-window -1)))
+                                (interactive)
+                                (other-window -1)))
 
 
 ;;
@@ -31,10 +31,10 @@
 ;; ;; name, ido will narrow down the list of buffers to match the text
 ;; ;; you've typed in
 ;; ;; http://www.emacswiki.org/emacs/InteractivelyDoThings
-;; (ido-mode t)
+(ido-mode t)
 ;;
 ;; ;; This allows partial matches, e.g. "tl" will match "Tyrion Lannister"
-;; (setq ido-enable-flex-matching t)
+(setq ido-enable-flex-matching t)
 ;;
 ;; ;; Turn this behavior off because it's annoying
 ;; (setq ido-use-filename-at-point nil)
@@ -63,4 +63,4 @@
 ;; (global-set-key (kbd "M-x") 'smex)
 ;;
 ;; ;; projectile everywhere!
-;; (projectile-global-mode)
+(projectile-global-mode)
