@@ -41,7 +41,6 @@
     ;; integration with a Clojure REPL
     ;; https://github.com/clojure-emacs/cider
     cider
-    ;; Debugger entered--Lisp error: (bad-signature "spinner-1.7.3.el.sig")
 
     ;; project navigation
     projectile
@@ -49,26 +48,11 @@
     ;; yaml
     yaml-mode
 
-    ;; ruby irb
-    inf-ruby
-
     ;; multi  line edit
     multiple-cursors
 
-    ;; minitest ?
-    minitest
-
-    ;; rspec
-;;    rspec-mode
-
-    ;; clojure excercises
-    4clojure
-
     ;; json
     json-mode
-
-    ;; ruby test in emacs
-    ruby-test-mode
 
     ;; golang
     go-mode
@@ -77,22 +61,7 @@
 (dolist (p my-packages)
   (when (not (package-installed-p p))
     (package-install p)))
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(coffee-tab-width 2)
- '(org-agenda-files nil)
- '(package-selected-packages
-   '(robe wsd-mode zoom-window tagedit spinner cider ruby-test-mode json-mode 4clojure minitest multiple-cursors inf-ruby yaml-mode seq paredit clojure-mode-extra-font-locking))
- '(safe-local-variable-values '((encoding . utf-8))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+
 ;;;;
 ;; Customization
 ;;;;
