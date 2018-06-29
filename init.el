@@ -74,12 +74,11 @@
 ;;;;
 ;; Customization
 ;;;;
-
-(setq custom-file "~/.emacs.d/customizations/misc.el")
+(setq custom-file (expand-file-name "customizations/misc.el" user-emacs-directory))
 
 ;; Add a directory to our load path so that when you `load` things
 ;; below, Emacs knows where to look for the corresponding file.
-(add-to-list 'load-path "~/.emacs.d/customizations")
+(add-to-list 'load-path (expand-file-name "customizations" user-emacs-directory))
 
 ;; Sets up exec-path-from-shell so that Emacs will use the correct
 ;; environment variables
