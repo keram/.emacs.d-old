@@ -56,6 +56,15 @@
 
     ;; golang
     go-mode
+
+    ;; tagedit
+    tagedit
+
+    ;; tmux zoom
+    zoom-window
+
+    ;; generate graphs
+    wsd-mode
     ))
 
 (dolist (p my-packages)
