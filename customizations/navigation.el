@@ -4,7 +4,8 @@
 (global-set-key (kbd "C-x O") (lambda ()
                                 (interactive)
                                 (other-window -1)))
-
+;; zoom window like tmux
+(global-set-key (kbd "C-x C-z") 'zoom-window-zoom)
 
 ;;
 ;; ;; "When several buffers visit identically-named files,
