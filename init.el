@@ -69,6 +69,9 @@
 
     ;; ruby test in emacs
     ruby-test-mode
+
+    ;; golang
+    go-mode
     ))
 
 (dolist (p my-packages)
@@ -126,4 +129,5 @@
 (load "setup-js.el")
 (load "setup-org.el")
 (load "setup-ruby.el")
+(load "setup-go.el")
 (load "setup-org-capture.el")
