@@ -8,7 +8,7 @@
               (lambda () (interactive) (quit-restore-window)))))
 
 (add-hook 'ruby-mode-hook
-          (lambda () (local-set-key (kbd "C-c t") #'ruby-test-run)))
+          (lambda () (local-set-key (kbd "C-c C-t C-t") #'ruby-test-run)))
 
 (add-hook 'ruby-mode-hook
   (lambda () (hs-minor-mode)))
