@@ -4,6 +4,8 @@ url/
 eww-bookmarks
 bookmarks
 desktop/
+server/
+eshell/
 .emacs.desktop
 recentf
 .emacs.desktop.lock
