@@ -88,7 +88,8 @@
 
 (add-hook 'text-mode-hook
           (lambda () (auto-fill-mode)
-            (set-fill-column 80)))
+            ;; (set-fill-column 80)
+            ))
 
 ;; Inspired by
 ;; https://github.com/nicferrier/creole-mode/blob/e3a2b15b228c9c1df7560ec390424040d69b8bb7/creole-mode.el#L70
