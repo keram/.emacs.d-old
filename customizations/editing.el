@@ -122,3 +122,6 @@
 ;       (set-buffer-file-coding-system 'unix))))
 
 ; (add-hook 'find-file-hooks 'no-junk-please-were-unixish)
+
+
+(add-hook 'prog-mode-hook 'company-mode)
