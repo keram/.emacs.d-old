@@ -99,3 +99,26 @@
 
 (setq fill-nobreak-predicate
       (list 'fill-break-p))
+
+
+
+;; Please no crlf from windows
+; (prefer-coding-system 'utf-8)
+; (set-default-coding-systems 'utf-8)
+; (set-terminal-coding-system 'utf-8)
+; (set-keyboard-coding-system 'utf-8)
+
+; (setq-default buffer-file-coding-system 'utf-8)
+(setq-default buffer-file-coding-system 'utf-8-unix)
+(setq buffer-file-coding-system 'utf-8-unix)
+(setq-default default-buffer-file-coding-system 'utf-8-unix)
+(setq default-buffer-file-coding-system 'utf-8-unix)
+(set-default-coding-systems 'utf-8-unix)
+(prefer-coding-system 'utf-8-unix)
+
+; (defun no-junk-please-were-unixish ()
+;   (let ((coding-str (symbol-name buffer-file-coding-system)))
+;     (when (string-match "-\\(?:dos\\|mac\\)$" coding-str)
+;       (set-buffer-file-coding-system 'unix))))
+
+; (add-hook 'find-file-hooks 'no-junk-please-were-unixish)
