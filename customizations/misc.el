@@ -25,7 +25,7 @@
  '(coffee-tab-width 2)
  '(org-agenda-files nil)
  '(package-selected-packages
-   '(js2-mode ensime scala-mode markdown-mode zoom-window yaml-mode wsd-mode tagedit projectile pcre2el paredit multiple-cursors json-mode go-mode clojure-mode-extra-font-locking cider))
+   '(rubocop ag js-doc rust-mode smex magit yasnippet company js2-mode ensime scala-mode markdown-mode zoom-window yaml-mode wsd-mode tagedit projectile pcre2el paredit multiple-cursors json-mode go-mode clojure-mode-extra-font-locking cider))
  '(safe-local-variable-values '((encoding . utf-8))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

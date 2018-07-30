@@ -13,5 +13,7 @@ network-security.data
 games/
 ido.last
 projectile-bookmarks.eld
-projectile.cache
 session.*
+tramp
+projectile.cache
+.smex-items

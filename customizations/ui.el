@@ -10,7 +10,10 @@
 (tool-bar-mode -1)
 
 ;; Show line numbers
-(global-linum-mode)
+;; (global-linum-mode)
+;; Faster line numbers mode
+;; (global-display-line-numbers-mode)
+(add-hook 'prog-mode-hook 'display-line-numbers-mode)
 
 ;; You can uncomment this to remove the graphical toolbar at the top. After
 ;; awhile, you won't need the toolbar.
