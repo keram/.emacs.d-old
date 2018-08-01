@@ -23,7 +23,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(coffee-tab-width 2)
- '(org-agenda-files nil)
+ '(company-idle-delay 0.25)
  '(package-selected-packages
    '(rubocop ag js-doc rust-mode smex magit yasnippet company js2-mode ensime scala-mode markdown-mode zoom-window yaml-mode wsd-mode tagedit projectile pcre2el paredit multiple-cursors json-mode go-mode clojure-mode-extra-font-locking cider))
  '(safe-local-variable-values '((encoding . utf-8))))
